@@ -1,0 +1,142 @@
+body {
+  font-size: 0.293333rem;
+  padding-bottom: 0.773333rem;
+}
+a {
+  font-size: 0.293333rem;
+}
+/* 1.0 头部 */
+.header {
+  display: flex;
+  align-items: center;
+  height: 1.12rem;
+}
+.logo {
+  width: 2.133333rem;
+  height: 0.666667rem;
+  background: url(../images/logo.png) no-repeat center;
+  background-size: 80%;
+  font-size: 0;
+}
+.search-box {
+  position: relative;
+  flex: 1;
+  font-size: 0.32rem;
+}
+.search {
+  width: 100%;
+  height: 0.666667rem;
+  background-color: #f0f0f0;
+  border-radius: 0.333333rem;
+  padding-left: 0.933333rem;
+  padding-right: 0.2rem;
+  font-size: 0.293333rem;
+}
+.search::placeholder {
+  font-size: 0.293333rem;
+}
+.icon-search {
+  position: absolute;
+  left: 0.28rem;
+  top: 0.213333rem;
+}
+.user-pic {
+  display: flex;
+  justify-content: center;
+  width: 1.12rem;
+}
+.user-pic img {
+  width: 0.746667rem;
+  height: 0.746667rem;
+}
+/* 2.0 焦点图  */
+.banner {
+  display: block;
+  height: 5.333333rem;
+  background: url(../upload/banner.jpg) no-repeat center;
+  background-size: 100%;
+}
+/* 3.0 导航 */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.266667rem;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 2rem;
+  height: 2.186667rem;
+}
+.nav-item img {
+  width: 80%;
+}
+/* 4.0 精选攻略  */
+.choiceness {
+  padding: 0 0.333333rem;
+}
+/* 4.1 精选攻略-头部 */
+.choiceness-head {
+  display: flex;
+  align-items: center;
+  height: 1.146667rem;
+}
+.choiceness-head h2 {
+  flex: 1;
+  font-size: 0.533333rem;
+}
+.safety-tips {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 3.266667rem;
+  height: 0.666667rem;
+  background-color: #02db94;
+  border-radius: 0.333333rem;
+  padding: 0 0.106667rem;
+  color: #fff;
+}
+/* 4.2 精选攻略-主体 */
+.choiceness-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.choiceness-body-item {
+  width: 4.453333rem;
+  height: 5.84rem;
+  border-radius: 0.133333rem;
+  margin-bottom: 0.613333rem;
+}
+.choiceness-body-item img {
+  width: 100%;
+  border-radius: 0.133333rem;
+}
+.choiceness-body-item h3 {
+  font-size: 0.32rem;
+  color: #000;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.choiceness-body-info {
+  display: flex;
+  padding-top: 0.16rem;
+}
+.choiceness-body-info p {
+  flex: 1;
+  font-size: 0.293333rem;
+  color: #d0ccce;
+}
+.choiceness-body-info span {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+.choiceness-body-info .icon-heart {
+  margin-right: 0.16rem;
+}
